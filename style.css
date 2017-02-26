@@ -1,0 +1,6 @@
+body {
+    background-color: lightgrey;
+}
+nav { background-color: grey; position: fixed; top: 0; width: 100%; margin: 0; padding: 0}
+
+nav a { display: inline-block; }
