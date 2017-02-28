@@ -8,14 +8,31 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="portfolio.html">Portfolio</a> |
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
     <h1>Contact Me</h1>
 
-    <a href="mailto:Michael.Miller@codercamps.com">Michael.Miller@codercamps.com</a>
+    <form action="https://formspree.io/Michael.Miller@codercamps.com" method="POST">
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="_replyto">
+    </div>
+    <div>
+        <label for="Message">Message:</label><br>
+        <textarea row="50" cols="25"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Send">
+    </div>
+
+</form>
     <table>
         <tr>
             <td><a href="https://www.instagram.com/michael_millerhairston/">Instagram</a></td>
@@ -26,19 +43,7 @@
         </tr>
     </table>
 
-    <form action="https://formspree.io/Michael.Miller@codercamps.com" method="POST">
-    <div>
-        <input type="text" name="name" placeholder="Name">
-    </div>
-    <div>
-        <input type="email" name="_replyto" placeholder="Email">
-    </div>
-    <div>
-        <textarea row="50" cols="25" placeholder="Message"></textarea>
-    </div>
-    <div>
-        <input type="submit" value="Send">
-    </div>
-</form>
+    <a id="mail" href="mailto:Michael.Miller@codercamps.com">Michael.Miller@codercamps.com</a>
+
 </body>
 </html>
